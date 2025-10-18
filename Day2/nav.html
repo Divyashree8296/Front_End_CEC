@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+  background-color:aqua;
+}
+form{
+    margin: 100px;
+    padding: 50px;
+    background-color: brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+label{
+    color:black;
+    background-color:beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+    </style>
+</head>
+<body>
+    <header>City Engineering College</header>
+    <nav>
+        <ul>
+            <li><a href="forms.html"target="_blanks">Forms</a></li>
+            <li><a href="../Day1/HTML/tables.html"target="_blanks">Table</a></li>
+        </ul>
+    </nav>
+    <h1 style ="text-align: center; color: rgb(1, 249, 166); background-color: blue;">Basic Form</h1>
+    <form action="/submit"method="POST"></form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required/><br /><br />
+    <label for="email">Email:</label>
+    <input type="email" id="email" email="email" required/><br /><br />
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male"/>
+    <label for="Female">Female</label>
+    <input
+    type="radio"
+    id="female"
+    name="gender"
+    value="female"
+    /><br /><br />
+</body>
+</html>
